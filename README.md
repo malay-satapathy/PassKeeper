@@ -7,7 +7,7 @@
 Take a chill pill, give yourself a break.
 Have you ever forgotten your password? And ever wondered to be able to keep your password secure somewhere safe where you can easily access it?
 
-[![Passkeeper YouTube Video](https://img.youtube.com/vi/sXqufs2hO5M/0.jpg)](https://www.youtube.com/watch?v=sXqufs2hO5M)
+[![Passkeeper YouTube Video](https://img.youtube.com/vi/sXqufs2hO5M/0.jpg)](https://www.youtube.com/watch?v=sXqufs2hO5M "PassKeeper YouTube Video")
 
 Playstore URL (Not Available Anymore) : 
 https://play.google.com/store/apps/details?id=com.TeamEclairs.passkeeper
