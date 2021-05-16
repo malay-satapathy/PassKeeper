@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/PassKeeperProject/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black_overlay">#66000000</color>
+    <declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="metaButtonBarStyle"/><attr format="reference" name="metaButtonBarButtonStyle"/></declare-styleable>
+    <!-- From: file:/C:/PassKeeperProject/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <!-- From: file:/C:/PassKeeperProject/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">PassKeeper</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="preference_file_key">100</string>
+    <string name="title_activity_abouts">PassKeeper</string>
+    <string name="title_activity_add_new">PassKeeper</string>
+    <string name="title_activity_end_account">PassKeeper</string>
+    <string name="title_activity_first_launch">PassKeeper</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_login">PassKeeper</string>
+    <string name="title_activity_manage_account">Manage Account</string>
+    <string name="title_activity_security_manager">Security</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_splash">PassKeeper</string>
+    <string name="title_activity_start">PassKeeper</string>
+    <string name="title_activity_start_animation">StartAnimationActivity</string>
+    <string name="title_activity_update">Update</string>
+    <string name="title_section1">View Contents</string>
+    <string name="title_section2">Add New</string>
+    <string name="title_section3">Settings</string>
+    <!-- From: file:/C:/PassKeeperProject/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+    <style name="ButtonBarButton"/>
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">@style/ButtonBar</item>
+        <item name="metaButtonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+</resources>

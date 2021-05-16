@@ -1,0 +1,227 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0FFFF"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.TeamEclairs.passkeeper.AddNewActivity" >
+
+   
+    
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Enter the details"
+        android:drawableLeft="@drawable/users_lock"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+    <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView" >
+   <LinearLayout
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_below="@+id/textView">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Type"
+        android:textColor="#31162b"/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textColor="#ff0000"/>
+    </TableRow> 
+   <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+       <AutoCompleteTextView
+       android:id="@+id/accountTypeText"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textColorHint="#ab2049"
+        android:hint="Account Type"
+        >
+
+       <requestFocus />
+   </AutoCompleteTextView>
+        
+    </TableRow>
+
+  <Space
+        android:layout_width="match_parent"
+        android:layout_height="6dp" />
+
+  <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="#31162b"/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textColor="#ff0000"/>
+    </TableRow>
+   <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+       <EditText
+           android:id="@+id/usernameText"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColorHint="#ab2049"
+           android:hint="Username"
+            />
+        
+    </TableRow>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="6dp" />
+  	 <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="URL"
+        android:textColor="#31162b"/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textColor="#ff0000"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       
+        <EditText
+           android:id="@+id/urlText"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColorHint="#ab2049"
+           android:hint="https://www.example.com"
+            />
+        
+    </TableRow>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="6dp" />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#31162b"/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textColor="#ff0000"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       
+        <EditText
+           android:id="@+id/passwordText"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColorHint="#ab2049"
+           android:hint="Password"
+            />
+        
+    </TableRow>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="6dp" />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notes"
+        android:textColor="#31162b"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <EditText
+           android:id="@+id/noteText"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:textColorHint="#ab2049"
+           android:hint="Any other relevant details"
+            />
+    </TableRow>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="6dp" />
+  	<TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       
+    </TableRow>
+
+  
+  
+   
+    
+    
+<TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableLeft="@android:drawable/ic_menu_delete"
+       android:background="@drawable/bg_button"
+        android:textAlignment="inherit"
+        android:text="Cancel"/>
+    <Space
+        android:layout_width="4dp"
+        android:layout_height="match_parent" />
+    
+    <Button 
+        android:id="@+id/saveButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableLeft="@android:drawable/ic_menu_save"
+        android:background="@drawable/bg_button"
+        android:textAlignment="inherit"
+        android:text="Save" />
+    </TableRow>
+
+ </LinearLayout>
+ </ScrollView>
+
+</RelativeLayout>
